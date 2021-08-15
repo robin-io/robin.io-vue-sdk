@@ -1,0 +1,37 @@
+<template>
+  <div class="robin-alphabet-block robin-flex robin-flex-align-center">
+    {{ text }}
+  </div>
+</template>
+
+<script lang="ts">
+import { defineComponent, PropType } from 'vue'
+
+export default defineComponent({
+  name: 'RForwardMessage',
+  props: {
+    text: {
+      type: String as PropType<string>,
+      default: 'A'
+    }
+  }
+})
+</script>
+
+<style scoped>
+.robin-alphabet-block {
+  width: 100%;
+  padding: 0 1.5rem;
+  height: 28px;
+  background-color: #f3f3f3;
+  font-size: 1rem;
+}
+
+.robin-flex {
+  display: flex;
+}
+
+.robin-flex-align-center {
+  align-items: center;
+}
+</style>
