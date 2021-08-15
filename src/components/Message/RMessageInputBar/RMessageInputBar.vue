@@ -28,11 +28,11 @@ export default defineComponent({
     text: '' as string
   }),
   methods: {
-    userTyping(event: any): void {
+    userTyping (event: any): void {
       const element = event.target as HTMLElement
       this.text = element?.innerText
     },
-    handleFocus(): void {
+    handleFocus (): void {
       const input = this.$refs.input as HTMLElement
       input?.focus()
     }
@@ -90,10 +90,6 @@ export default defineComponent({
 
 .robin-input:empty + .robin-placeholder {
   opacity: 1;
-}
-
-.robin-mt-4 {
-  margin-top: 0.25rem;
 }
 
 /* Input focus */

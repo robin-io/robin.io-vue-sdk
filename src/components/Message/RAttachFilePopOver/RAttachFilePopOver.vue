@@ -59,12 +59,4 @@ export default defineComponent({
 .robin-wrapper:first-child {
   border: none;
 }
-
-.robin-mr-9 {
-  margin-right: 0.563rem;
-}
-
-.robin-w-100 {
-  width: 100%;
-}
 </style>

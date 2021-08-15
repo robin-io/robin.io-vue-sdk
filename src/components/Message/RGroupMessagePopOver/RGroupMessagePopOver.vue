@@ -48,8 +48,4 @@ export default defineComponent({
 .robin-wrapper:first-child {
   border: none;
 }
-
-.robin-w-100 {
-  width: 100%;
-}
 </style>

@@ -40,12 +40,12 @@ export default defineComponent({
     }
   },
   methods: {
-    userTyping(val: string): void {
+    userTyping (val: string): void {
       this.text = val
     }
   },
   computed: {
-    getStyles(): Object {
+    getStyles (): Object {
       return {
         'border-radius': this.borderRadius + 'px',
         'min-height': this.height + 'px',

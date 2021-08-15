@@ -39,12 +39,12 @@ export default defineComponent({
   data: () => ({
     root: null as any
   }),
-  mounted(): void {
+  mounted (): void {
     this.root = document.documentElement
     // this.getStyles()
   },
   computed: {
-    getStyles(): Object {
+    getStyles (): Object {
       let rootFontSize = 16 // default
 
       if (this.root && this.root.style.fontSize !== '') {

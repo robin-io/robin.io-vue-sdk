@@ -144,26 +144,6 @@ header {
   padding: 0 1.5rem;
 }
 
-.robin-w-100 {
-  width: 100%;
-}
-
-.robin-pt-10 {
-  padding-top: 0.625rem;
-}
-
-.robin-pt-4 {
-  padding-top: 0.25rem;
-}
-
-.robin-pb-4 {
-  padding-bottom: 0.25rem;
-}
-
-.robin-pb-11 {
-  padding-bottom: 0.688rem;
-}
-
 .robin-card-container {
   width: 100%;
 }
@@ -183,54 +163,6 @@ header {
   padding: 0 1.5rem;
   height: 28px;
   background-color: #f3f3f3;
-}
-
-.robin-flex {
-  display: flex;
-}
-
-.robin-flex-column {
-  flex-direction: column;
-}
-
-.robin-flex-space-between {
-  justify-content: space-between;
-}
-
-.robin-ml-auto {
-  margin-left: auto;
-}
-
-.robin-mr-12 {
-  margin-right: 0.75rem;
-}
-
-.robin-ml-8 {
-  margin-left: 0.5rem;
-}
-
-.robin-h-100 {
-  height: 100%;
-}
-
-.robin-flex-align-center {
-  align-items: center;
-}
-
-.robin-flex-1 {
-  flex: 1;
-}
-
-.robin-mt-42 {
-  margin-top: 2.625rem;
-}
-
-.robin-grey-200 {
-  background-color: #fafafa;
-}
-
-.robin-clickable {
-  cursor: pointer;
 }
 
 .robin-alphabet-block + .robin-card-container .robin-card:hover {

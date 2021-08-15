@@ -118,42 +118,6 @@ export default defineComponent({
   padding: 2.875rem 2.688rem 2.875rem 3.125rem;
 }
 
-.robin-flex {
-  display: flex;
-}
-
-.robin-flex-column {
-  flex-direction: column;
-}
-
-.robin-flex-space-between {
-  justify-content: space-between;
-}
-
-.robin-pl-25 {
-  padding-left: 1.563rem;
-}
-
-.robin-pl-21 {
-  padding-left: 1.313rem;
-}
-
-.robin-ml-auto {
-  margin-left: auto;
-}
-
-.robin-flex {
-  display: flex;
-}
-
-.robin-flex-wrap {
-  flex-wrap: wrap;
-}
-
-.robin-flex-align-end {
-  align-items: flex-end;
-}
-
 /* Bubble styles */
 
 .robin-message-sender + .robin-message-receiver {

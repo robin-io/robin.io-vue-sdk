@@ -61,55 +61,7 @@ header {
   z-index: 2;
 }
 
-.robin-pt-10 {
-  padding-top: 0.625rem;
-}
-
-.robin-pb-11 {
-  padding-bottom: 0.688rem;
-}
-
 .robin-card-container {
   width: 100%;
-}
-
-.robin-flex {
-  display: flex;
-}
-
-.robin-flex-column {
-  flex-direction: column;
-}
-
-.robin-flex-space-between {
-  justify-content: space-between;
-}
-
-.robin-ml-auto {
-  margin-left: auto;
-}
-
-.robin-mt-6 {
-  margin-top: 0.375rem;
-}
-
-.robin-mr-16 {
-  margin-right: 1rem;
-}
-
-.robin-ml-8 {
-  margin-left: 0.5rem;
-}
-
-.robin-h-100 {
-  height: 100%;
-}
-
-.robin-flex-align-center {
-  align-items: center;
-}
-
-.robin-flex-1 {
-  flex: 1;
 }
 </style>

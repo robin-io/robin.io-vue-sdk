@@ -23,17 +23,17 @@ export default defineComponent({
   data: () => ({
     root: null as any
   }),
-  mounted(): void {
+  mounted (): void {
     this.root = document.documentElement
     this.setRootVariables()
   },
   watch: {
-    backgroundColor(): void {
+    backgroundColor (): void {
       this.setRootVariables()
     }
   },
   methods: {
-    setRootVariables(): void {
+    setRootVariables (): void {
       this.root.style.setProperty('--bg-color', this.backgroundColor)
     }
   }

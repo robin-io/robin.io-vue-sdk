@@ -26,12 +26,4 @@ export default defineComponent({
   background-color: #f3f3f3;
   font-size: 1rem;
 }
-
-.robin-flex {
-  display: flex;
-}
-
-.robin-flex-align-center {
-  align-items: center;
-}
 </style>

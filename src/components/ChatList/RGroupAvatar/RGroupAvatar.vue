@@ -35,7 +35,7 @@
 import { defineComponent, PropType } from 'vue'
 
 export default defineComponent({
-  name: 'RAvatar',
+  name: 'RGroupAvatar',
   props: {
     imgUrl: {
       type: String as PropType<string>,

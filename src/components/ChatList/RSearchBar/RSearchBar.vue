@@ -47,7 +47,7 @@ export default defineComponent({
     text: ''
   }),
   methods: {
-    userTyping(val: string): void {
+    userTyping (val: string): void {
       this.text = val
     }
   }

@@ -44,7 +44,7 @@ export default defineComponent({
     sideBarType: 'primary'
   }),
   methods: {
-    changeSideBarType(val: string): void {
+    changeSideBarType (val: string): void {
       this.sideBarType = val
     }
   }
