@@ -187,7 +187,7 @@ export default class RGroupMessageContainer extends Vue {
   getReadReceipts () {
     EventBus.$on('read.reciept', (message: any) => {
       console.log(message)
-      this.readReceipts = message.messageIds
+      this.readReceipts = message.message_ids
     })
   }
 
@@ -261,6 +261,7 @@ export default class RGroupMessageContainer extends Vue {
     if (res && !res.error) {
       this.testMessages(res.data ? res.data : [])
       const filterMessage = res.data ? res.data.filter((item: any) => !item.is_read && item.sender_token !== this.$user_token) : []
+      console.log(filterMessage, "filter")
       const messageIds = filterMessage.map((item: any) => item._id)
 
       if (messageIds.length > 0) {
